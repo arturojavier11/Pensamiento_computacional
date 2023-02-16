@@ -1,5 +1,5 @@
 # GITHUB = para un titulo mas grande 
-## TITULO = Tamaño medio
+## GITHUB = Tamaño medio
 ### TITULO = Tamaño pequeño 
 * = Enlistar
 comint
