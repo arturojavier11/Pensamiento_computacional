@@ -1,4 +1,4 @@
-# TITULO = para un titulo mas grande 
+# GITHUB = para un titulo mas grande 
 ## TITULO = Tamaño medio
 ### TITULO = Tamaño pequeño 
 * = Enlistar
