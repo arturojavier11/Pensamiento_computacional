@@ -1,0 +1,8 @@
+cuanto tiempo tardariamos en leer los nombres de las personas considerando que tardamos 1 segundo por nombre
+
+1 INICIO 
+2 DECLARACIÓN: Cantidad de Habitantes en el Mundo
+3 ASIGNAR: (8,000,000,000,000) , 1 segundo  
+4 OPERACIÓN: 8,000,000,000,000 x 1
+5 MOSTRAR : (8 Billones de segundos) 
+6 FIN.  
