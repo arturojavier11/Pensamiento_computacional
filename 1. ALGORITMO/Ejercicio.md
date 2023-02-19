@@ -52,4 +52,21 @@ FIN
 
 ###  Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
 
-    TU RESPUESTA AQUI
+
+INICIO
+
+
+DACLARAR:(PRECIO INICIAL, PRECIO DE INCREMENTO, REGLA DE TRES, PORCENTAJE)
+
+
+ASIGNAR: (PRECIO DE INCREMETO, PRECIO INICIAL)
+
+
+PROCESO: RESTAR= PRECIO DE INCREMENTO - PRECIO INICIAL
+MULTIPLICAR= RESTAR*100%/PRECIO INICIAL
+
+
+MOSTRAR: (REGLA DE TRES,PORCENTAJE)
+
+
+FIN
