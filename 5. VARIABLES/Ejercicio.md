@@ -52,19 +52,25 @@ Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro c
 
 Realiza un algoritmo para un programa que solicite al usuario su nombre y le salude usando ese nombre
 
-1 saludar, nombre 
+1 Inicio
 
 
-2 (saludos, nombre)
+2 Declarar: saludo(str),nombre(str),resultado(str)
 
 
-3 escribir= "ingresar nombre"
+3 Asiganar: saludo="hola", nombre=nombres
 
 
-4 leer= "saludos nombre"
+4 proceso: saludo + nombre 
 
 
-5 (saludos nombre)  
+5 resultado= "hola nombre"
+
+
+6 Mostrar: saludo,nombre
+
+
+7 fin  
 
 ## EJERCICIO 3
 
@@ -73,7 +79,7 @@ Realiza un algoritmo para  un programa que solicite al usuario ingresar la canti
 1 kilometraje<-float
 
 
-2 kilómetraje_1<-0
+2 kilómetraje<-0
 
 
 3 combustible<-20.8
@@ -82,10 +88,10 @@ Realiza un algoritmo para  un programa que solicite al usuario ingresar la canti
 4 consumo<-0
 
 
-5 escribir "ingresa kilometraje recorrido"
+5 escribir "ingresa kilometraje"
 
 
-6 leer "kilometraje_1"
+6 leer "kilometraje"
 
 
 7 consumo=(kilómetraje*combustible)
