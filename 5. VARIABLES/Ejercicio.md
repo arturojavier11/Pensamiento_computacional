@@ -70,6 +70,27 @@ Realiza un algoritmo para un programa que solicite al usuario su nombre y le sal
 
 Realiza un algoritmo para  un programa que solicite al usuario ingresar la cantidad de kilómetros recorridos por una motocicleta y la cantidad de litros de combustible que consumió durante ese recorrido. El consumo por kilómetro es de 20.8
 
-      TU ALGORITMO AQUI  
+1 kilometraje<-float
+
+
+2 kilómetraje_1<-0
+
+
+3 combustible<-20.8
+
+
+4 consumo<-0
+
+
+5 escribir "ingresa kilometraje recorrido"
+
+
+6 leer "kilometraje_1"
+
+
+7 consumo=(kilómetraje*combustible)
+
+
+8 escribir "El consumo de combustible fue",consumo
 
 Ahora llevalos a PSINT
