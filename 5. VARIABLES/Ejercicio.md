@@ -27,7 +27,25 @@ tienes?
 
 Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro calificaciones, una por periodo, de cada materia.
 
-      TU ALGORITMO AQUI
+1 INICIO 
+
+
+2 DECLARAR: (CALIFICACIÓN, SUMAR, PROMEDIAR)
+
+
+3 ASIGNAR: (CALIFICACIÓN_1, CALIFICACIÓN_2, CALIFICACIÓN_3, CALIFICACIÓN_4,)
+
+
+4 PROCESO: SUMAR= CALIFICACIÓN_1 + CALIFICACIÓN_2 + CALIFICACIÓN_3 + CALIFICACIÓN_4 
+
+
+5 PROMEDIAR= SUMAR/4
+
+
+6 MOSTRAR: (SUMAR,PROMEDIAR)
+
+
+7 FIN
       
       
 ## EJERCICIO 3
