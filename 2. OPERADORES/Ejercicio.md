@@ -47,7 +47,7 @@ mayor que “F”. ¿Cuál es el menor de todos?
 
 3^2 – (10/(8-4))+9 > 100 
 
-      TU RESPUESTA AQUI
+      (false)
 
 ## OPERADORES LOGICOS
 Reto. Evalúa las siguientes expresiones a la derecha (FALSO O VERDADERO).
