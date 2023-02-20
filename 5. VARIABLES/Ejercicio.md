@@ -52,7 +52,19 @@ Realiza un algoritmo que calcule el promedio de un alumno el cual tiene cuatro c
 
 Realiza un algoritmo para un programa que solicite al usuario su nombre y le salude usando ese nombre
 
-      TU ALGORITMO AQUI  
+1 saludar, nombre 
+
+
+2 (saludos, nombre)
+
+
+3 escribir= "ingresar nombre"
+
+
+4 leer= "saludos nombre"
+
+
+5 (saludos nombre)  
 
 ## EJERCICIO 3
 
