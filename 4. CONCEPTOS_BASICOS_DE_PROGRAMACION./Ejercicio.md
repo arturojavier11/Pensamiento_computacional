@@ -2,6 +2,7 @@ Investiga sobre algún lenguaje de programación e ingresa sus características.
 
 
 
+
 Un lenguaje interpretado
 Python es un lenguaje interpretado, lo que significa que ejecuta directamente el código línea por línea. Si existen errores en el código del programa, su ejecución se detiene. Así, los programadores pueden encontrar errores en el código con rapidez.
 
@@ -19,4 +20,4 @@ Python es más cercano a los idiomas humanos que otros lenguajes de programació
 
 
 Un lenguaje orientado a los objetos
-Python considera todo como un objeto, pero también admite otros tipos de programación, como la programación 
+Python considera todo como un objeto, pero también admite otros tipos de programación, como la programación estructurada y funcional.
