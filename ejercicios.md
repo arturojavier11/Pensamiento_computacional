@@ -19,3 +19,19 @@
       escribir"el aulumno tuvo un promedio de ",promedio
 
     FinAlgoritmo
+
+
+
+
+
+    EJERCICIO DE INTERES COMPUESTO
+    
+    
+    Algoritmo sin_titulo
+	Definir prestamo Como real
+	Definir mensualidad como entero
+	Definir total_a_pagar Como Real
+	Definir interes Como Real
+	Definir pago_mensual como real
+	
+    FinAlgoritmo
