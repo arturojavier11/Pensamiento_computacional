@@ -35,3 +35,64 @@
 	Definir pago_mensual como real
 	
     FinAlgoritmo
+
+
+
+
+
+    CONDICIONALES
+     
+     REALIZA EL EJERCICIO DE UN PROGRAMA QUE CALCULA EL PROMEDIO, Y EL ESTATUS APROBADO O REPROBADO DE UN ALUMNO DE ALGUNO DE LOS SIGUIENTES 3 GRUPOS: 
+     GRUPO 1: ESPAÑOL, MATEMATICAS Y CIENCIAS
+     GRUPO 2: ESPAÑOL, MATEMATICAS, CIENCIAS Y INGLES
+     GRUPO 3: ESPAÑOL, MATEMATICAS, CIENCIAS, INGLES Y MATEMATICAS
+      
+      INGRESA EL NOMBRE DEL ALUMNO
+      CALIFICACIONES DE CADA MATERIA 
+      PROMEDIO
+      RESULTADO
+      
+      
+      
+      Segun variable_numerica Hacer
+		opcion_1:
+			secuencia_de_acciones_1
+		opcion_2:
+			secuencia_de_acciones_2
+		opcion_3:
+			secuencia_de_acciones_3
+		De Otro Modo:
+			secuencia_de_acciones_dom
+	Fin Segun
+	
+	
+	Definir nombre_del_alumno Como Caracter
+	Definir español como real
+	Definir matematicas como real
+	Definir ciencias Como Real
+	Definir promedio Como Real
+	escribir "ingresa_nombre_del_alumno"
+	leer nombre
+	escribir "ingresa_calificacion_de_español"
+	leer español
+	
+	
+	Si español>10 Entonces
+		escribir "calificación_invalida"
+	fin si
+	
+	escribir "ingresa_calificacion_de_matematicas"
+	leer matematicas 
+	escribir "ingresa_calificacion_de_ciencias"
+	leer ciencias
+	
+	promedio<-(españo+matematicas+ciencias/3)
+	
+	escribir "el_promedio_del_alumno",nombre_del_alumno,"es de",promedio
+	Si promedio >=6 Entonces
+		escribir "aprobado"
+	SiNo
+		escribir "reprobado"
+	Fin Si
+
+FinAlgoritmo
