@@ -73,8 +73,19 @@
 	
 	escribir "ingresa_calificacion_de_matematicas"
 	leer matematicas 
+	
+	Si matematicas>10 Entonces
+     escribir "calificación_invalida"
+	SiNo
+	Fin Si
+	
 	escribir "ingresa_calificacion_de_ciencias"
 	leer ciencias
+	
+	Si ciencias>10 Entonces
+		escribir "calificación_invalida"
+	SiNo
+	Fin Si
 	
 	promedio<-(españo+matematicas+ciencias/3)
 	
@@ -83,6 +94,4 @@
 		escribir "aprobado"
 	SiNo
 		escribir "reprobado"
-	Fin Si
-
-FinAlgoritmo
+Fin Si
