@@ -95,3 +95,41 @@
 	SiNo
 		escribir "reprobado"
 Fin Si
+
+
+
+
+
+
+
+Algoritmo sin_titulo
+	Definir numero_1, numero_2, resultado Como Real
+	Definir operación Como Caracter
+	Escribir "calculadora, opciones(+, -, *, /, ^ ,MOD)"
+	Leer numero_1
+	Leer operación
+	Leer numero_2
+	Segun operación Hacer
+		"+":
+			resultado<- numero_1+numero_2
+		"-":
+			resultado<- numero_1-numero_2
+		"/":
+			Si numero_2 = 0 Entonces
+				Escribir "no_se_divide_entre_cero"
+			SiNo
+				resultado<- numero_1 / numero_2
+			Fin Si
+		"*":
+			resultado<- numero_1 * numero_2
+		"**":
+			resultado<- numero_1 ^ numero_2
+		"//":
+			resultado<- numero_1 MOD numero_2
+		"%":
+			resultado<- TRUNC(numero_1 / numero_2)
+		De Otro Modo:
+			Escribir "operador_no_valido"
+	Fin Segun
+	Escribir numero_1," ", operación," ", numero_2, " = ", resultado
+FinAlgoritmo
