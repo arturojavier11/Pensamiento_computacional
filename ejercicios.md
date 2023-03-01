@@ -102,34 +102,72 @@ Fin Si
 
 
 
-Algoritmo sin_titulo
-	Definir numero_1, numero_2, resultado Como Real
-	Definir operación Como Caracter
-	Escribir "calculadora, opciones(+, -, *, /, ^ ,MOD)"
-	Leer numero_1
-	Leer operación
-	Leer numero_2
-	Segun operación Hacer
-		"+":
-			resultado<- numero_1+numero_2
-		"-":
-			resultado<- numero_1-numero_2
-		"/":
-			Si numero_2 = 0 Entonces
-				Escribir "no_se_divide_entre_cero"
-			SiNo
-				resultado<- numero_1 / numero_2
-			Fin Si
-		"*":
-			resultado<- numero_1 * numero_2
-		"**":
-			resultado<- numero_1 ^ numero_2
-		"//":
-			resultado<- numero_1 MOD numero_2
-		"%":
-			resultado<- TRUNC(numero_1 / numero_2)
-		De Otro Modo:
-			Escribir "operador_no_valido"
-	Fin Segun
-	Escribir numero_1," ", operación," ", numero_2, " = ", resultado
-FinAlgoritmo
+	Algoritmo sin_titulo
+		Definir numero_1, numero_2, resultado Como Real
+		Definir operación Como Caracter
+		Escribir "calculadora, opciones(+, -, *, /, ^ ,MOD)"
+		Leer numero_1
+		Leer operación
+		Leer numero_2
+		Segun operación Hacer
+			"+":
+				resultado<- numero_1+numero_2
+			"-":
+				resultado<- numero_1-numero_2
+			"/":
+				Si numero_2 = 0 Entonces
+					Escribir "no_se_divide_entre_cero"
+				SiNo
+					resultado<- numero_1 / numero_2
+				Fin Si
+			"*":
+				resultado<- numero_1 * numero_2
+			"**":
+				resultado<- numero_1 ^ numero_2
+			"//":
+				resultado<- numero_1 MOD numero_2
+			"%":
+				resultado<- TRUNC(numero_1 / numero_2)
+			De Otro Modo:
+				Escribir "operador_no_valido"
+		Fin Segun
+		Escribir numero_1," ", operación," ", numero_2, " = ", resultado
+	FinAlgoritmo
+
+
+
+
+
+	Para i<-0 Hasta 100 Con Paso 2 Hacer
+			Escribir i
+		Fin Para
+
+
+
+
+
+
+	Definir num Como Entero
+		Definir res como Entero
+		Escribir "dime de que numero quieres la tabla"
+		Leer num
+		Para i<-1 Hasta 10 Con Paso 1 Hacer 
+			res<-i*num
+			Escribir num, " x ",i," = ",res
+		Fin Para
+		
+		
+		
+		
+		
+		Definir nombre Como Caracter
+	Definir veces Como Entero
+	Escribir "ingresa nombre"
+	leer nombre
+	Escribir "cuantas veces quieres imprimir"
+	Leer veces
+	Para i<-1 Hasta veces Con Paso 1 Hacer
+		Escribir i, " ", nombre
+	Fin Para
+		
+		
