@@ -171,3 +171,28 @@ Fin Si
 	Fin Para
 		
 		
+
+
+
+
+	Definir nombre Como Caracter
+		Definir calif Como Real
+		Definir promedio Como Real
+		Definir veces Como Entero
+		Definir suma Como Real
+		Definir numero_de_alumnos Como Entero
+		Escribir "numero de alumnos"
+		leer numero_de_alumnos
+		Para j<-1 Hasta numero_de_alumnos Con Paso 1 Hacer
+			Escribir "ingresa nombre del alumno ",j
+			Leer nombre
+			Escribir "cuantas calificaciónes tiene ", nombre
+			Leer veces
+			Para i<-1 Hasta veces Con Paso 1 Hacer
+				Escribir "ingresa calificación ", i, " de ",nombre
+				leer calif
+				suma<- suma+calif
+				promedio<- suma/veces
+			Fin Para
+			Escribir "el promedio de ",nombre, " es de ",promedio
+		Fin Para
