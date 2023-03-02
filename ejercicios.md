@@ -196,3 +196,80 @@ Fin Si
 			Fin Para
 			Escribir "el promedio de ",nombre, " es de ",promedio
 		Fin Para
+		
+		
+		
+		
+		
+		
+		wihile
+		
+		Definir nombre Como Caracter
+	Definir opción Como Caracter
+	Escribir "ingresa tu nombre"	
+	Leer nombre
+	Escribir "quieres imprimir tu nombre si o no"
+	Leer opción
+	Mientras opción= " si " O opción= " no "   Hacer
+		Escribir nombre
+		Escribir "quieres imprimir si o no"
+		Leer opción
+	Fin Mientras
+	
+	
+	
+	
+	
+	
+	Definir nombre Como Caracter
+	Definir veces Como Entero
+	Definir i Como Entero
+	Escribir "ingresa nombre"
+	Leer nombre
+	Escribir "cuantas veces"
+	Leer veces
+	Mientras i < veces Hacer
+		Escribir nombre
+	Fin Mientras
+	
+	
+	
+	
+	
+	Definir num_secreto Como Entero
+	Definir num_usuario Como Entero
+	num_secreto<-( azar (99))+1
+	Escribir "adivina el numero de secreto"
+	leer num_usuario
+	Mientras num_secreto <> num_usuario Hacer
+		Escribir "adivina el numero secreto"
+		Leer numero_secreto
+	Fin Mientras
+	
+	
+	
+	
+	
+	Definir num_secreto Como Entero
+	Definir num_usuario Como Entero
+	Definir vidas Como Entero
+	vidas<-5
+	num_secreto<-azar(99)+1
+	
+	Escribir "adivina el numero secreto tines 5 oportunidades"
+	leer num_usuario
+	Mientras num_secreto <> num_usuario y vidas>0 Hacer
+		Si num_secreto > num_usuario Entonces
+			Escribir "numero secreto es mayor al que ingresaste"
+		SiNo
+			Escribir "el numero secreto es menor al que ingresaste"
+		Fin Si
+		Escribir "adivina el numero secreto tienes " ,vidas, " vidas "
+		Leer num_usuario
+		vidas<-vidas-1
+	Fin Mientras
+	Si num_secreto = num_usuario Entonces
+		Escribir "felicidades le atinaste"
+	SiNo
+		Escribir "mala suerte no acertaste"
+	Fin Si
