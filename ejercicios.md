@@ -273,3 +273,5 @@ Fin Si
 	SiNo
 		Escribir "mala suerte no acertaste"
 	Fin Si
+
+![image](https://github.com/arturojavier11/Pensamiento_computacional/assets/125502848/8bcc6080-e538-4514-a39c-f61a6147f130)
